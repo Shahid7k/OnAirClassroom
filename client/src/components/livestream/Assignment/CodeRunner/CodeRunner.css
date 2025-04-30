@@ -1,0 +1,9 @@
+.output-box {
+    /* background-color: rgb(253, 253, 224); */
+}
+.output-box .output{
+    min-width: 28em;
+    min-height: 20em;
+    max-width: 28em;
+    /* overflow: scroll; */
+}
