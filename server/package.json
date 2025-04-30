@@ -1,0 +1,30 @@
+{
+  "name": "videobox-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "heroku-postbuild": "cd client && npm install --only=prod && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-promise-router": "^3.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "pg": "^8.2.1",
+    "pg-promise": "^10.5.6",
+    "socket.io": "^2.4.1",
+    "socket.io-adapter-postgres": "^1.2.1"
+  }
+}
